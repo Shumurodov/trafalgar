@@ -1,0 +1,45 @@
+.intro {
+  background-image: url("../img/intro-img.png");
+  padding-top: 107px;
+  padding-bottom: 270px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.intro__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 427px;
+  margin-bottom: 25px;
+}
+
+.intro__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  width: 445px;
+  margin-bottom: 48px;
+}
+
+.intro__link {
+  @include link;
+  background: #458ff6;
+  border-radius: $radius;
+  padding: 15px 40px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}

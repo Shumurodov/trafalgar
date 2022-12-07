@@ -1,0 +1,26 @@
+
+.nav {
+}
+.nav__list {
+    @include list;
+}
+.nav__item {
+    margin-right: 40px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.nav__link {
+    @include link;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(31, 21, 52, 0.5);
+}
+.nav__link--active {
+font-weight: 700;
+color: rgba(31, 21, 52, 1);
+}
